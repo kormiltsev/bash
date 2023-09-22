@@ -1,0 +1,5 @@
+alias ip='ifconfig | grep broadcast'
+alias printslow='pv -qL 100'
+alias shutupd='sudo apt update && sudo apt-get upgrade -y; shutdown'
+alias exa='exa -T -L 3'
+alias cbonsai='cbonsai -S -l -i -t 0.5'
