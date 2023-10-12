@@ -4,7 +4,7 @@ echo 'alpine apk upload begins'
 
 apk update && apk upgrade
 
-apps=(curl wget)
+apps=(curl wget wc)
 
 function defer() {
 	tldr -u
