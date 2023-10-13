@@ -4,7 +4,7 @@ echo 'alpine apk upload begins'
 
 apk update && apk upgrade
 
-apps=(curl wget wc)
+apps=(curl wget wc tmux)
 
 function defer() {
 	tldr -u
