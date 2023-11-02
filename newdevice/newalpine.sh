@@ -4,7 +4,7 @@ echo 'alpine apk upload begins'
 
 apk update && apk upgrade
 
-apps=(curl wget wc tmux fzf neofetch rsync)
+apps=(curl wget wc tmux fzf neofetch rsync nano)
 
 function defer() {
 	tldr -u
