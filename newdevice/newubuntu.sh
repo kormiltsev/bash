@@ -4,7 +4,7 @@ echo 'ubuntu app upload begins'
 
 #apt update && apt upgrade
 
-apps=(curl)
+apps=(curl wget)
 
 file='./updateResults'
 > $file #make it empty
