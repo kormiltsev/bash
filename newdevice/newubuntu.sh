@@ -4,7 +4,7 @@ echo 'ubuntu app upload begins'
 
 #apt update && apt upgrade
 
-apps=(curl wget openssh)
+apps=(curl wget openssh snap)
 
 file='./updateResults'
 > $file #make it empty
