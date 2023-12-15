@@ -4,7 +4,7 @@ echo 'ubuntu app upload begins'
 
 #apt update && apt upgrade
 
-apps=(curl wget openssh snap mc tldr tmux fzf bat)
+apps=(curl wget openssh snap mc tldr tmux fzf bat feh)
 
 file='./updateResults'
 > $file #make it empty
