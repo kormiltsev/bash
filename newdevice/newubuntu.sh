@@ -4,7 +4,7 @@ echo 'ubuntu app upload begins'
 
 #apt update && apt upgrade
 
-apps=(curl wget openssh snap mc tldr tmux fzf bat feh neofetch rsync w3m tty-clock nano micro gdu)
+apps=(curl wget openssh snap mc tldr tmux fzf bat feh neofetch rsync w3m tty-clock nano micro gdu cmatrix)
 
 file='./updateResults'
 > $file #make it empty
