@@ -6,6 +6,10 @@ echo 'ubuntu app upload begins'
 
 apps=(curl wget openssh snap mc tldr tmux fzf bat feh neofetch rsync w3m tty-clock nano micro gdu cmatrix)
 
+function defer() {
+	tldr -u
+}
+
 file='./updateResults'
 > $file #make it empty
 
