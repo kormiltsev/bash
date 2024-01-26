@@ -9,7 +9,7 @@ apps=(curl wget openssh snap mc tldr tmux fzf bat feh neofetch rsync w3m tty-clo
 function defer() {
 	tldr -u
     rc-update add sshd && service sshd start
-    cmatrix -b -C blue
+    cmatrix -b -C blue -a
 }
 
 file='./updateResults'
