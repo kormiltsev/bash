@@ -21,7 +21,7 @@ function checkAndInstall(){
 	var=$(command -v $1)
 	address="/usr/bin/"$1
 	if [[ "$var" == "$address" ]]; then
-	#if [[ "$var" == "/usr/bin/nano" ]];
+	#if [[ "$var" == "/usr/bin/nano" ]]
 		echo $var >> $file
 	else
 		if [[ -z $var ]]; then
