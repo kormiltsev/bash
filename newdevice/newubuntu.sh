@@ -21,7 +21,6 @@ function checkAndInstall(){
 	var=$(command -v $1)
 	address="/usr/bin/"$1
 	if [[ "$var" == "$address" ]]; then
-	#if [[ "$var" == "" ]]
 		echo $var >> $file
 	else
 		if [[ -z $var ]]; then
